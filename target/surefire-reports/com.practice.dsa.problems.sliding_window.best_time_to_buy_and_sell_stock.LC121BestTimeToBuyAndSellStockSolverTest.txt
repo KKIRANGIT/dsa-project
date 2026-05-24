@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.practice.dsa.problems.sliding_window.best_time_to_buy_and_sell_stock.LC121BestTimeToBuyAndSellStockSolverTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.practice.dsa.problems.sliding_window.best_time_to_buy_and_sell_stock.LC121BestTimeToBuyAndSellStockSolverTest
