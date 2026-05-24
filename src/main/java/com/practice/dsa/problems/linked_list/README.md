@@ -1,18 +1,25 @@
-# Linked List
+﻿# Linked List Problems
 
-## What To Learn Here
+Package: `com.practice.dsa.problems.linked_list`
 
-- pointer rewiring
-- dummy node usage
-- fast and slow pointers
+This folder currently contains 3 problem folders, 1 topic runners, and 1 tests.
 
-## Suggested Problem Order
+## Topic Runners
 
-1. `LC206 Reverse Linked List`
-2. `LC21 Merge Two Sorted Lists`
-3. `LC141 Linked List Cycle`
+- `LinkedListProblemsMain`
 
-## Common Beginner Mistakes
+## Problem Inventory
 
-- losing the next node while reversing
-- mishandling head updates
+- `linked_list_cycle`: `LC141LinkedListCycleMain`, `LC141LinkedListCycleSolver`
+- `merge_two_sorted_lists`: `LC21MergeTwoSortedListsMain`, `LC21MergeTwoSortedListsSolver`
+- `reverse_linked_list`: `LC206ReverseLinkedListMain`, `LC206ReverseLinkedListSolver`
+
+## Tests
+
+- `LC206ReverseLinkedListSolverTest`
+
+## Related Layers
+
+- `basics/linkedlist`
+- `patterns/linked_list`
+

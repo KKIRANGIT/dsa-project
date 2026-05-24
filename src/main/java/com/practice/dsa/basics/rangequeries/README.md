@@ -1,29 +1,28 @@
-# Range Query Basics
+﻿# Range Queries Basics
 
-Study order:
-1. `FenwickTreeBasics`
-2. `SegmentTreeBasics`
-3. `LazySegmentTreeBasics`
+Package: `com.practice.dsa.basics.rangequeries`
 
-Use this folder to learn advanced array-query structures when prefix sums are no longer enough.
+This folder currently contains 3 implementation classes and 3 runnable demos.
 
-Good signals:
-- many range queries
-- point updates or range updates
-- repeated online operations
+## Implementations
 
-## Practice Exercises
+- `FenwickTreeBasics`
+- `LazySegmentTreeBasics`
+- `SegmentTreeBasics`
 
-- Support mutable range-sum queries with a Fenwick tree.
-- Build a segment tree for range sum, then swap the merge logic to range minimum.
-- Add lazy propagation for range increment updates and repeated sum queries.
-- Use a Fenwick tree to count inversions or "smaller elements after self".
-- Compare prefix sums, Fenwick trees, and segment trees on the same query workload.
+## Runnable Entry Points
 
-## Good Next Problems
+- `FenwickTreeBasicsMain`
+- `LazySegmentTreeBasicsMain`
+- `SegmentTreeBasicsMain`
 
-- `Range Sum Query - Mutable`
-- `Count of Smaller Numbers After Self`
-- `Range Module`
-- `My Calendar III`
-- `Count of Range Sum`
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/range_queries`
+

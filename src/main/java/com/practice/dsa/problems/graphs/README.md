@@ -1,19 +1,31 @@
-# Graphs
+﻿# Graphs Problems
 
-## What To Learn Here
+Package: `com.practice.dsa.problems.graphs`
 
-- DFS flood fill
-- BFS traversal
-- visited-state management
-- graph cloning
+This folder currently contains 9 problem folders, 1 topic runners, and 1 tests.
 
-## Suggested Problem Order
+## Topic Runners
 
-1. `LC200 Number of Islands`
-2. `LC695 Max Area of Island`
-3. `LC133 Clone Graph`
+- `GraphsProblemsMain`
 
-## Common Beginner Mistakes
+## Problem Inventory
 
-- revisiting nodes or cells repeatedly
-- not marking visited early enough
+- `clone_graph`: `LC133CloneGraphMain`, `LC133CloneGraphSolver`
+- `course_schedule`: `LC207CourseScheduleMain`, `LC207CourseScheduleSolver`
+- `max_area_of_island`: `LC695MaxAreaOfIslandMain`, `LC695MaxAreaOfIslandSolver`
+- `number_of_islands`: `LC200NumberOfIslandsMain`, `LC200NumberOfIslandsSolver`
+- `pacific_atlantic_water_flow`: `LC417PacificAtlanticWaterFlowMain`, `LC417PacificAtlanticWaterFlowSolver`
+- `rotting_oranges`: `LC994RottingOrangesMain`, `LC994RottingOrangesSolver`
+- `shortest_path_in_binary_matrix`: `LC1091ShortestPathInBinaryMatrixMain`, `LC1091ShortestPathInBinaryMatrixSolver`
+- `surrounded_regions`: `LC130SurroundedRegionsMain`, `LC130SurroundedRegionsSolver`
+- `walls_and_gates`: `LC286WallsAndGatesMain`, `LC286WallsAndGatesSolver`
+
+## Tests
+
+- `LC200NumberOfIslandsSolverTest`
+
+## Related Layers
+
+- `basics/graph`
+- `patterns/graphs`
+

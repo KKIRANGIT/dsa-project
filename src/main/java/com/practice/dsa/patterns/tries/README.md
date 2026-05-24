@@ -1,33 +1,27 @@
-# Trie Patterns
+﻿# Tries Patterns
 
-## What This Folder Covers
+Package: `com.practice.dsa.patterns.tries`
 
-Use this folder when repeated prefix queries over many strings are the core difficulty.
+This folder currently contains 2 templates and 2 runnable demos.
 
-## How To Identify This Topic
+## Templates
 
-Pick this topic when you see signals like:
+- `PT1TrieUsageTemplate`
+- `PT2PrefixReplacementTemplate`
 
-- many `startsWith` checks
-- dictionary is reused across many queries
-- shortest or longest matching prefix matters
-- character-by-character branching beats flat hashing
+## Runnable Demos
 
-## Study Order
+- `PT1TrieUsageTemplateMain`
+- `PT2PrefixReplacementTemplateMain`
 
-1. `PT1TrieUsageTemplate`
-2. `PT2PrefixReplacementTemplate`
+## Study Flow
 
-## PT1 `PT1TrieUsageTemplate`
+1. Start with the lowest-numbered template.
+2. Identify the reusable decision rule or invariant.
+3. Run the `Main` class and map it to a problem family.
 
-- Solves: insert/search/prefix existence problems.
-- Identify: many string queries share prefixes and repeated scanning is too slow.
-- Typical LeetCode problems: `Implement Trie (Prefix Tree)`, `Design Add and Search Words Data Structure`, `Word Search II` setup.
-- Reminder: each node represents a prefix state, not a full word by itself.
+## Related Layers
 
-## PT2 `PT2PrefixReplacementTemplate`
+- `basics/trie`
+- `problems/tries`
 
-- Solves: replacement by shortest root or matched prefix from a dictionary.
-- Identify: each query word should be cut off as soon as a valid prefix is found.
-- Typical LeetCode problems: `Replace Words`, dictionary root replacement tasks, prefix filter variants.
-- Reminder: the trie helps you stop early when the first valid root appears.

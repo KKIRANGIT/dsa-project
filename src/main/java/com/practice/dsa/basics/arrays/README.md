@@ -1,27 +1,35 @@
-# Arrays Basics
+﻿# Arrays Basics
 
-Study order:
-1. `ArrayTraversalBasics`
-2. `PrefixSum`
-3. `SuffixSum`
-4. `DifferenceArray`
-5. `TwoDimensionalPrefixSum`
-6. `KadaneBasics`
+Package: `com.practice.dsa.basics.arrays`
 
-Use this folder to learn traversal, range-sum preprocessing, range updates, and maximum-subarray thinking.
+This folder currently contains 6 implementation classes and 6 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Build a `runningSum` method and answer many range-sum queries in `O(1)` after preprocessing.
-- Given many `[left, right, delta]` updates, apply them with a difference array and rebuild the final array.
-- Find a pivot index where the left sum equals the right sum.
-- Solve maximum subarray, maximum circular subarray, and maximum product subarray to compare scan states.
-- Use 2D prefix sums to answer rectangle-sum queries on a matrix.
+- `ArrayTraversalBasics`
+- `DifferenceArray`
+- `KadaneBasics`
+- `PrefixSum`
+- `SuffixSum`
+- `TwoDimensionalPrefixSum`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Two Sum`
-- `Range Sum Query - Immutable`
-- `Product of Array Except Self`
-- `Corporate Flight Bookings`
-- `Maximum Subarray`
+- `ArrayTraversalBasicsMain`
+- `DifferenceArrayMain`
+- `KadaneBasicsMain`
+- `PrefixSumMain`
+- `SuffixSumMain`
+- `TwoDimensionalPrefixSumMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/arrays_hashing`
+- `problems/arrays_hashing`
+

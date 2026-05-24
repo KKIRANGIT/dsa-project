@@ -1,23 +1,27 @@
-# Recursion Basics
+﻿# Recursion Basics
 
-Study order:
-1. `RecursionBasics`
-2. `FactorialRecursion`
+Package: `com.practice.dsa.basics.recursion`
 
-Use this folder to learn base cases, recursive calls, and how the call stack grows and returns.
+This folder currently contains 2 implementation classes and 2 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Write recursive versions of sum, power, Fibonacci, and binary search.
-- Reverse a string or array segment recursively.
-- Check whether a string is a palindrome using only recursion.
-- Verify whether an array is sorted by comparing one element and recursing on the rest.
-- Trace the full call stack for one example on paper until the return phase feels obvious.
+- `FactorialRecursion`
+- `RecursionBasics`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Fibonacci Number`
-- `Pow(x, n)`
-- `Reverse String`
-- `Swap Nodes in Pairs`
-- `K-th Symbol in Grammar`
+- `FactorialRecursionMain`
+- `RecursionBasicsMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/backtracking`
+- `patterns/dp`
+

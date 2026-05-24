@@ -1,23 +1,27 @@
-# Bit Basics
+﻿# Bit Basics
 
-Study order:
-1. `BitUtilities`
-2. `BitMaskEnumerationBasics`
+Package: `com.practice.dsa.basics.bit`
 
-Use this folder to learn bit operations, bit checks/updates, and subset generation using masks.
+This folder currently contains 2 implementation classes and 2 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Implement `setBit`, `clearBit`, `toggleBit`, and `isBitSet` without helper libraries.
-- Count set bits for every value from `0` to `n`.
-- Use XOR to find the unique element when every other element appears twice.
-- Enumerate all subsets with bitmasks and compute their subset sums.
-- Convert word character sets into bitmasks and detect overlaps efficiently.
+- `BitMaskEnumerationBasics`
+- `BitUtilities`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Single Number`
-- `Counting Bits`
-- `Subsets`
-- `Bitwise AND of Numbers Range`
-- `Maximum Product of Word Lengths`
+- `BitMaskEnumerationBasicsMain`
+- `BitUtilitiesMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/bit_manipulation`
+- `problems/bit_manipulation`
+

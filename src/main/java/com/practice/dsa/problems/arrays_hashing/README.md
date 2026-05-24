@@ -1,25 +1,32 @@
-# Arrays and Hashing
+﻿# Arrays and Hashing Problems
 
-## What To Learn Here
+Package: `com.practice.dsa.problems.arrays_hashing`
 
-- frequency counting
-- hash lookups
-- prefix-style accumulation
-- grouping by canonical keys
+This folder currently contains 8 problem folders, 1 topic runners, and 2 tests.
 
-## Suggested Problem Order
+## Topic Runners
 
-1. `LC217 Contains Duplicate`
-2. `LC1 Two Sum`
-3. `LC242 Valid Anagram`
-4. `LC49 Group Anagrams`
-5. `LC347 Top K Frequent Elements`
-6. `LC238 Product of Array Except Self`
-7. `LC36 Valid Sudoku`
-8. `LC128 Longest Consecutive Sequence`
+- `ArraysHashingProblemsMain`
 
-## Common Beginner Mistakes
+## Problem Inventory
 
-- forgetting that hash maps trade memory for speed
-- using the same array index twice in `Two Sum`
-- missing duplicate handling in grouping problems
+- `contains_duplicate`: `LC217ContainsDuplicateMain`, `LC217ContainsDuplicateSolver`
+- `group_anagrams`: `LC49GroupAnagramsMain`, `LC49GroupAnagramsSolver`
+- `longest_consecutive_sequence`: `LC128LongestConsecutiveSequenceMain`, `LC128LongestConsecutiveSequenceSolver`
+- `product_of_array_except_self`: `LC238ProductOfArrayExceptSelfMain`, `LC238ProductOfArrayExceptSelfSolver`
+- `top_k_frequent_elements`: `LC347TopKFrequentElementsMain`, `LC347TopKFrequentElementsSolver`
+- `two_sum`: `LC1TwoSumMain`, `LC1TwoSumSolver`
+- `valid_anagram`: `LC242ValidAnagramMain`, `LC242ValidAnagramSolver`
+- `valid_sudoku`: `LC36ValidSudokuMain`, `LC36ValidSudokuSolver`
+
+## Tests
+
+- `LC217ContainsDuplicateSolverTest`
+- `LC1TwoSumSolverTest`
+
+## Related Layers
+
+- `basics/arrays`
+- `basics/hashing`
+- `patterns/arrays_hashing`
+

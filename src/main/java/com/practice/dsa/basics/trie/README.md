@@ -1,22 +1,25 @@
-# Trie Basics
+﻿# Trie Basics
 
-Study order:
-1. `Trie`
+Package: `com.practice.dsa.basics.trie`
 
-Use this folder to learn prefix-tree insertion, search, and prefix lookup.
+This folder currently contains 1 implementation classes and 1 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Add prefix counts so you can answer "how many words share this prefix?"
-- Implement word deletion without breaking other words that share nodes.
-- Support wildcard search where `.` can match any single character.
-- Use a trie to replace words by root prefixes in a sentence.
-- Combine trie traversal with DFS for board-search problems.
+- `Trie`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Implement Trie (Prefix Tree)`
-- `Design Add and Search Words Data Structure`
-- `Replace Words`
-- `Search Suggestions System`
-- `Word Search II`
+- `TrieMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/tries`
+- `problems/tries`
+

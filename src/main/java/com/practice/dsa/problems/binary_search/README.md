@@ -1,18 +1,25 @@
-# Binary Search
+﻿# Binary Search Problems
 
-## What To Learn Here
+Package: `com.practice.dsa.problems.binary_search`
 
-- exact search
-- search over rotated arrays
-- binary search on the answer
+This folder currently contains 3 problem folders, 1 topic runners, and 1 tests.
 
-## Suggested Problem Order
+## Topic Runners
 
-1. `LC704 Binary Search`
-2. `LC33 Search in Rotated Sorted Array`
-3. `LC875 Koko Eating Bananas`
+- `BinarySearchProblemsMain`
 
-## Common Beginner Mistakes
+## Problem Inventory
 
-- infinite loops from wrong boundary updates
-- not understanding why search-on-answer works
+- `binary_search`: `LC704BinarySearchMain`, `LC704BinarySearchSolver`
+- `koko_eating_bananas`: `LC875KokoEatingBananasMain`, `LC875KokoEatingBananasSolver`
+- `search_in_rotated_sorted_array`: `LC33SearchInRotatedSortedArrayMain`, `LC33SearchInRotatedSortedArraySolver`
+
+## Tests
+
+- `LC704BinarySearchSolverTest`
+
+## Related Layers
+
+- `basics/searching`
+- `patterns/binary_search`
+

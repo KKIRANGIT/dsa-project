@@ -1,22 +1,28 @@
-# Two Pointers
+﻿# Two Pointers Problems
 
-## What To Learn Here
+Package: `com.practice.dsa.problems.two_pointers`
 
-- opposite-end scanning
-- fast/slow pointer movement
-- sorted-array pair logic
-- shrinking and expanding from both ends
+This folder currently contains 5 problem folders, 1 topic runners, and 0 tests.
 
-## Suggested Problem Order
+## Topic Runners
 
-1. `LC125 Valid Palindrome`
-2. `LC167 Two Sum II`
-3. `LC11 Container With Most Water`
-4. `LC15 3Sum`
-5. `LC42 Trapping Rain Water`
+- `TwoPointersProblemsMain`
 
-## Common Beginner Mistakes
+## Problem Inventory
 
-- moving the wrong pointer after a comparison
-- forgetting duplicate skipping in `3Sum`
-- not understanding why the shorter side moves in container problems
+- `container_with_most_water`: `LC11ContainerWithMostWaterMain`, `LC11ContainerWithMostWaterSolver`
+- `three_sum`: `LC15ThreeSumMain`, `LC15ThreeSumSolver`
+- `trapping_rain_water`: `LC42TrappingRainWaterMain`, `LC42TrappingRainWaterSolver`
+- `two_sum_ii`: `LC167TwoSumIIMain`, `LC167TwoSumIISolver`
+- `valid_palindrome`: `LC125ValidPalindromeMain`, `LC125ValidPalindromeSolver`
+
+## Tests
+
+- None currently.
+
+## Related Layers
+
+- `basics/arrays`
+- `basics/linkedlist`
+- `patterns/two_pointers`
+

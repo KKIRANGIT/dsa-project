@@ -1,30 +1,43 @@
-# Graph Basics
+﻿# Graph Basics
 
-Study order:
-1. `AdjacencyMatrixBasics`
-2. `GraphTraversal`
-3. `ConnectedComponentsBasics`
-4. `GraphCycleDetectionBasics`
-5. `GridShortestPathBasics`
-6. `TopologicalSortBasics`
-7. `DijkstraBasics`
-8. `PrimMstBasics`
-9. `BellmanFordBasics`
+Package: `com.practice.dsa.basics.graph`
 
-Use this folder to learn graph representations, BFS/DFS, components, cycle checks, grid shortest path, DAG ordering, weighted shortest path, minimum spanning tree, and negative-edge shortest path.
+This folder currently contains 9 implementation classes and 9 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Build the same graph as both an adjacency list and an adjacency matrix.
-- Count islands or components using both DFS and BFS.
-- Detect cycles in both undirected and directed graphs.
-- Solve course-order style problems with topological sort and indegree tracking.
-- Compare BFS, Dijkstra, and Bellman-Ford on unweighted, non-negative, and negative-edge graphs.
+- `AdjacencyMatrixBasics`
+- `BellmanFordBasics`
+- `ConnectedComponentsBasics`
+- `DijkstraBasics`
+- `GraphCycleDetectionBasics`
+- `GraphTraversal`
+- `GridShortestPathBasics`
+- `PrimMstBasics`
+- `TopologicalSortBasics`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Number of Islands`
-- `Course Schedule`
-- `Network Delay Time`
-- `Path With Minimum Effort`
-- `Redundant Connection`
+- `AdjacencyMatrixBasicsMain`
+- `BellmanFordBasicsMain`
+- `ConnectedComponentsBasicsMain`
+- `DijkstraBasicsMain`
+- `GraphCycleDetectionBasicsMain`
+- `GraphTraversalMain`
+- `GridShortestPathBasicsMain`
+- `PrimMstBasicsMain`
+- `TopologicalSortBasicsMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/graphs`
+- `patterns/advanced_graphs`
+- `problems/graphs`
+- `problems/advanced_graphs`
+

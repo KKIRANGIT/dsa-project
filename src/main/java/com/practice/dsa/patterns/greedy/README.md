@@ -1,33 +1,26 @@
-# Greedy Patterns
+﻿# Greedy Patterns
 
-## What This Folder Covers
+Package: `com.practice.dsa.patterns.greedy`
 
-Use this folder when a locally best move can be proven to lead to the global answer.
+This folder currently contains 2 templates and 2 runnable demos.
 
-## How To Identify This Topic
+## Templates
 
-Pick this topic when you see signals like:
+- `PT1ReachabilityGreedyTemplate`
+- `PT2IntervalGreedyTemplate`
 
-- jump reachability
-- choose earliest finishing interval
-- maintain farthest reachable point
-- sorting by a key makes the best next choice obvious
+## Runnable Demos
 
-## Study Order
+- `PT1ReachabilityGreedyTemplateMain`
+- `PT2IntervalGreedyTemplateMain`
 
-1. `PT1ReachabilityGreedyTemplate`
-2. `PT2IntervalGreedyTemplate`
+## Study Flow
 
-## PT1 `PT1ReachabilityGreedyTemplate`
+1. Start with the lowest-numbered template.
+2. Identify the reusable decision rule or invariant.
+3. Run the `Main` class and map it to a problem family.
 
-- Solves: reachability, jump range, minimum jumps with frontier logic.
-- Identify: from each position you can extend how far the future can go.
-- Typical LeetCode problems: `Jump Game`, `Jump Game II`, gas-station style greedy reasoning.
-- Reminder: the proof is the important part in greedy. Do not use it unless the local choice is safe.
+## Related Layers
 
-## PT2 `PT2IntervalGreedyTemplate`
+- `problems/greedy`
 
-- Solves: choose maximum non-overlapping intervals or remove minimum overlaps.
-- Identify: sorting intervals by end time makes later choices easiest.
-- Typical LeetCode problems: `Non-overlapping Intervals`, `Meeting Rooms`, `Minimum Number of Arrows to Burst Balloons`.
-- Reminder: greedy interval problems usually become clear after sorting by start or end.

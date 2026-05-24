@@ -1,77 +1,114 @@
-# Project Map
+﻿# Project Map
 
-This repository has 3 learning layers.
+This repository is organized into five learning layers.
 
-## Layer 1: Basics
+## Layer 1: Shared Helpers
 
-Path:
+- Path: `src/main/java/com/practice/dsa/common`
+- Scope: shared node types, builders, support structures, and debug printers
+- Current files: 12
 
-`src/main/java/com/practice/dsa/basics`
+## Layer 2: Basics
 
-Purpose:
-- learn the raw data structures and core algorithms
-- understand how they work internally
-- debug them directly
+- Path: `src/main/java/com/practice/dsa/basics`
+- Scope: hand-built data structures and core algorithm mechanics
+- Topics: 19
+- Runnable demos: 74
 
-Example topics:
-- arrays
-- linked list
-- stack
-- queue
-- trees
-- heap
-- trie
-- graph
-- dp
+## Layer 3: Patterns
 
-## Layer 2: Patterns
+- Path: `src/main/java/com/practice/dsa/patterns`
+- Scope: reusable interview patterns and templates
+- Topics: 19
+- Templates: 88
 
-Path:
+## Layer 4: Problems
 
-`src/main/java/com/practice/dsa/patterns`
+- Path: `src/main/java/com/practice/dsa/problems`
+- Scope: topic-grouped LeetCode-style implementations
+- Topics: 18
+- Problem folders: 123
+- Tests: 8
 
-Purpose:
-- learn reusable interview problem-solving strategies
-- recognize when a problem is really â€œtwo pointersâ€, â€œsliding windowâ€, â€œDFSâ€, or â€œDPâ€
+## Layer 5: Design Patterns
 
-Example topics:
-- arrays_hashing
-- two_pointers
-- sliding_window
-- stack
-- binary_search
-- graphs
-- dp
+- Path: `src/main/java/com/practice/dsa/designpatterns`
+- Scope: object creation, structure, behavior, concurrency, and enterprise design
+- Categories: 5
+- Demos: 42
 
-## Layer 3: Problems
+## Topic Inventory
 
-Path:
+### Basics
 
-`src/main/java/com/practice/dsa/problems`
+- `arrays`
+- `backtracking`
+- `bit`
+- `dp`
+- `graph`
+- `hashing`
+- `heap`
+- `linkedlist`
+- `math`
+- `queue`
+- `rangequeries`
+- `recursion`
+- `searching`
+- `sorting`
+- `stack`
+- `strings`
+- `trees`
+- `trie`
+- `unionfind`
 
-Purpose:
-- apply basics + patterns to actual LeetCode questions
-- practice naming, flow, debugging, and edge cases
+### Patterns
 
-Naming rule:
-- `LC1TwoSumSolver`
-- `LC217ContainsDuplicateMain`
+- `advanced_graphs`
+- `arrays_hashing`
+- `backtracking`
+- `binary_search`
+- `bit_manipulation`
+- `dp`
+- `graphs`
+- `greedy`
+- `heap`
+- `intervals`
+- `linked_list`
+- `math_geometry`
+- `range_queries`
+- `sliding_window`
+- `stack`
+- `strings`
+- `trees`
+- `tries`
+- `two_pointers`
 
-Meaning:
-- `LC1` is the LeetCode problem number
-- `Solver` contains the logic
-- `Main` is the runnable entry point
+### Problems
 
-## File Reading Order
+- `advanced_graphs`
+- `arrays_hashing`
+- `backtracking`
+- `binary_search`
+- `bit_manipulation`
+- `dp1`
+- `dp2`
+- `graphs`
+- `greedy`
+- `heap`
+- `intervals`
+- `linked_list`
+- `math_geometry`
+- `sliding_window`
+- `stack`
+- `trees`
+- `tries`
+- `two_pointers`
 
-For any topic, use this order:
+### Design Patterns
 
-1. `basics/<topic>/...`
-2. `patterns/<topic>/...`
-3. `problems/<topic>/...`
+- `behavioral`
+- `concurrency`
+- `creational`
+- `enterprise`
+- `structural`
 
-Example for arrays and hashing:
-
-1. `basics/arrays/PrefixSumMain.java`
-2. `patterns/arrays_hashing/PT1FrequencyMapTemplateMain.java`
-3. `problems/arrays_hashing/ArraysHashingProblemsMain.java`

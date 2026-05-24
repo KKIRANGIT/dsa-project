@@ -1,24 +1,29 @@
-# Stack Basics
+﻿# Stack Basics
 
-Study order:
-1. `ArrayStack`
-2. `LinkedListStack`
-3. `MinStackBasic`
+Package: `com.practice.dsa.basics.stack`
 
-Use this folder to learn LIFO behavior, stack implementation choices, and auxiliary-state stacks.
+This folder currently contains 3 implementation classes and 3 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Validate bracket sequences with a stack.
-- Evaluate postfix or reverse-polish expressions.
-- Solve next-greater-element and daily-temperature style monotonic stack problems.
-- Track minimum or maximum values alongside the main stack state.
-- Use a stack to simulate recursion for one tree or graph traversal.
+- `ArrayStack`
+- `LinkedListStack`
+- `MinStackBasic`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Valid Parentheses`
-- `Evaluate Reverse Polish Notation`
-- `Next Greater Element I`
-- `Daily Temperatures`
-- `Largest Rectangle in Histogram`
+- `ArrayStackMain`
+- `LinkedListStackMain`
+- `MinStackBasicMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/stack`
+- `problems/stack`
+

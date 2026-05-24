@@ -1,19 +1,31 @@
-# 2-D Dynamic Programming
+﻿# Dynamic Programming II Problems
 
-## What To Learn Here
+Package: `com.practice.dsa.problems.dp2`
 
-- grid DP
-- string DP
-- edit and matching transitions
+This folder currently contains 9 problem folders, 1 topic runners, and 0 tests.
 
-## Suggested Problem Order
+## Topic Runners
 
-1. `LC62 Unique Paths`
-2. `LC1143 Longest Common Subsequence`
-3. `LC72 Edit Distance`
+- `Dp2ProblemsMain`
 
-## Common Beginner Mistakes
+## Problem Inventory
 
-- mixing row and column meanings
-- not initializing borders correctly
-- not defining subproblem meaning clearly
+- `coin_change_ii`: `LC518CoinChangeIIMain`, `LC518CoinChangeIISolver`
+- `distinct_subsequences`: `LC115DistinctSubsequencesMain`, `LC115DistinctSubsequencesSolver`
+- `edit_distance`: `LC72EditDistanceMain`, `LC72EditDistanceSolver`
+- `interleaving_string`: `LC97InterleavingStringMain`, `LC97InterleavingStringSolver`
+- `longest_common_subsequence`: `LC1143LongestCommonSubsequenceMain`, `LC1143LongestCommonSubsequenceSolver`
+- `maximal_square`: `LC221MaximalSquareMain`, `LC221MaximalSquareSolver`
+- `minimum_path_sum`: `LC64MinimumPathSumMain`, `LC64MinimumPathSumSolver`
+- `unique_paths`: `LC62UniquePathsMain`, `LC62UniquePathsSolver`
+- `unique_paths_ii`: `LC63UniquePathsIIMain`, `LC63UniquePathsIISolver`
+
+## Tests
+
+- None currently.
+
+## Related Layers
+
+- `basics/dp`
+- `patterns/dp`
+

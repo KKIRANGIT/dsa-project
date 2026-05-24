@@ -1,23 +1,27 @@
-# Strings Basics
+﻿# Strings Basics
 
-Study order:
-1. `StringUtilitiesBasics`
-2. `StringBuilderBasics`
+Package: `com.practice.dsa.basics.strings`
 
-Use this folder to learn reversal, palindrome checks, character counting, and efficient mutable string construction.
+This folder currently contains 2 implementation classes and 2 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Reverse words in a sentence without using expensive repeated string concatenation.
-- Check palindromes while ignoring case and non-alphanumeric characters.
-- Build character-frequency solutions for anagrams and first-unique-character questions.
-- Compress strings or remove adjacent duplicates using `StringBuilder`.
-- Practice substring and window-style questions where string indexing must stay precise.
+- `StringBuilderBasics`
+- `StringUtilitiesBasics`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Valid Palindrome`
-- `Reverse Words in a String`
-- `Longest Common Prefix`
-- `String Compression`
-- `Longest Substring Without Repeating Characters`
+- `StringBuilderBasicsMain`
+- `StringUtilitiesBasicsMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/strings`
+- `problems/sliding_window`
+

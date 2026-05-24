@@ -1,25 +1,31 @@
-# Queue Basics
+﻿# Queue Basics
 
-Study order:
-1. `ArrayQueueBasic`
-2. `LinkedListQueueBasic`
-3. `CircularQueue`
-4. `ArrayDequeBasic`
+Package: `com.practice.dsa.basics.queue`
 
-Use this folder to learn FIFO behavior, circular storage, and double-ended operations.
+This folder currently contains 4 implementation classes and 4 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Implement a fixed-size circular queue and test full/empty transitions carefully.
-- Use a queue for level-order traversal or grid BFS.
-- Build a moving-average data stream class on top of queue operations.
-- Use a deque to solve sliding-window maximum in linear time.
-- Compare queue-based BFS with stack-based DFS on the same input graph or grid.
+- `ArrayDequeBasic`
+- `ArrayQueueBasic`
+- `CircularQueue`
+- `LinkedListQueueBasic`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Number of Recent Calls`
-- `Moving Average from Data Stream`
-- `Binary Tree Level Order Traversal`
-- `Rotting Oranges`
-- `Sliding Window Maximum`
+- `ArrayDequeBasicMain`
+- `ArrayQueueBasicMain`
+- `CircularQueueMain`
+- `LinkedListQueueBasicMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/sliding_window`
+- `patterns/graphs`
+

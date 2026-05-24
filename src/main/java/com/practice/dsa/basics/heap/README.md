@@ -1,24 +1,29 @@
-# Heap Basics
+﻿# Heap Basics
 
-Study order:
-1. `MinHeap`
-2. `MaxHeap`
-3. `PriorityQueueBasics`
+Package: `com.practice.dsa.basics.heap`
 
-Use this folder to learn heap structure, heap operations, and Java `PriorityQueue` usage.
+This folder currently contains 3 implementation classes and 3 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Insert elements one by one, then implement bottom-up heapify and compare the build cost.
-- Maintain the `k` largest values seen so far in a stream.
-- Use two heaps to support median queries after each insertion.
-- Merge `k` sorted lists or arrays with a min-heap.
-- Solve top-k and scheduling problems where the next best candidate must be chosen repeatedly.
+- `MaxHeap`
+- `MinHeap`
+- `PriorityQueueBasics`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Kth Largest Element in an Array`
-- `Top K Frequent Elements`
-- `Find Median from Data Stream`
-- `Merge k Sorted Lists`
-- `Task Scheduler`
+- `MaxHeapMain`
+- `MinHeapMain`
+- `PriorityQueueBasicsMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/heap`
+- `problems/heap`
+

@@ -1,22 +1,25 @@
-# Union Find Basics
+﻿# Unionfind Basics
 
-Study order:
-1. `UnionFind`
+Package: `com.practice.dsa.basics.unionfind`
 
-Use this folder to learn disjoint-set union, path compression, and component merging.
+This folder currently contains 1 implementation classes and 1 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Count connected components as edges arrive one by one.
-- Detect the first edge that creates a cycle.
-- Group related records such as email accounts into merged components.
-- Solve equality-and-inequality constraint problems with component checks.
-- Compare union-find with DFS on static graphs so you know when DSU is the better tool.
+- `UnionFind`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Number of Provinces`
-- `Redundant Connection`
-- `Accounts Merge`
-- `Satisfiability of Equality Equations`
-- `Smallest String With Swaps`
+- `UnionFindMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/advanced_graphs`
+- `problems/advanced_graphs`
+

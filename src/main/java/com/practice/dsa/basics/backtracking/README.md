@@ -1,24 +1,29 @@
-# Backtracking Basics
+﻿# Backtracking Basics
 
-Study order:
-1. `SubsetsBacktracking`
-2. `CombinationsBacktracking`
-3. `PermutationsBacktracking`
+Package: `com.practice.dsa.basics.backtracking`
 
-Use this folder to learn choose/explore/unchoose recursion for generating search-space answers.
+This folder currently contains 3 implementation classes and 3 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Generate subsets when the input contains duplicates.
-- Build `Combination Sum` style search where you can reuse choices.
-- Generate letter combinations from a phone keypad.
-- Partition a string into all possible palindrome partitions.
-- Solve `N-Queens` after you are comfortable with subsets and permutations.
+- `CombinationsBacktracking`
+- `PermutationsBacktracking`
+- `SubsetsBacktracking`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Subsets II`
-- `Combination Sum`
-- `Letter Combinations of a Phone Number`
-- `Palindrome Partitioning`
-- `N-Queens`
+- `CombinationsBacktrackingMain`
+- `PermutationsBacktrackingMain`
+- `SubsetsBacktrackingMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/backtracking`
+- `problems/backtracking`
+

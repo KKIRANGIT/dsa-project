@@ -1,49 +1,32 @@
-# Backtracking Patterns
+﻿# Backtracking Patterns
 
-## What This Folder Covers
+Package: `com.practice.dsa.patterns.backtracking`
 
-Use this folder when the solution space is a decision tree and you must try a choice, recurse, then undo it.
+This folder currently contains 4 templates and 4 runnable demos.
 
-## How To Identify This Topic
+## Templates
 
-Pick this topic when you see signals like:
+- `PT1BacktrackingTemplate`
+- `PT2CombinationTemplate`
+- `PT3PermutationTemplate`
+- `PT4BoardSearchTemplate`
 
-- generate all valid answers
-- try every combination or permutation
-- board or word search with visited cells
-- choose / skip branching
+## Runnable Demos
 
-## Study Order
+- `PT1BacktrackingTemplateMain`
+- `PT2CombinationTemplateMain`
+- `PT3PermutationTemplateMain`
+- `PT4BoardSearchTemplateMain`
 
-1. `PT1BacktrackingTemplate`
-2. `PT2CombinationTemplate`
-3. `PT3PermutationTemplate`
-4. `PT4BoardSearchTemplate`
+## Study Flow
 
-## PT1 `PT1BacktrackingTemplate`
+1. Start with the lowest-numbered template.
+2. Identify the reusable decision rule or invariant.
+3. Run the `Main` class and map it to a problem family.
 
-- Solves: general choose/explore/unchoose recursion.
-- Identify: each level makes a decision and the next decisions depend on the current partial answer.
-- Typical LeetCode problems: `Subsets`, `Combination Sum`, many generic search problems.
-- Reminder: always restore state before leaving the recursion frame.
+## Related Layers
 
-## PT2 `PT2CombinationTemplate`
+- `basics/backtracking`
+- `basics/recursion`
+- `problems/backtracking`
 
-- Solves: choose `k` items or any subset where order does not matter.
-- Identify: `[1,2]` and `[2,1]` should count as the same answer.
-- Typical LeetCode problems: `Combinations`, `Combination Sum`, `Subsets`.
-- Reminder: advance the start index so the same element ordering is not repeated.
-
-## PT3 `PT3PermutationTemplate`
-
-- Solves: all orderings of values.
-- Identify: `[1,2]` and `[2,1]` are different valid answers.
-- Typical LeetCode problems: `Permutations`, `Permutations II`, `Letter Tile Possibilities`.
-- Reminder: track used elements or swap in place.
-
-## PT4 `PT4BoardSearchTemplate`
-
-- Solves: grid/board exploration with path-specific visited state.
-- Identify: you move in directions and cannot reuse the same cell in one path.
-- Typical LeetCode problems: `Word Search`, `N-Queens` board-thinking, `Sudoku Solver` search mindset.
-- Reminder: mark, recurse, and unmark carefully.

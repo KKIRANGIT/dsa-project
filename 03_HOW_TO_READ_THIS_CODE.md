@@ -1,44 +1,31 @@
-# How To Read This Code
+﻿# How To Read This Code
 
-If you are new, use this method for every solver file.
+Use the same method in every package.
 
-## Step 1
+## Step 1: Identify The File Type
 
-Read the class-level comment first.
+- `*Main`: runnable walkthrough or grouped demo
+- `LC*`: problem-specific solution
+- `PT*`: reusable pattern template
+- `CP / SP / BP / XP / EP`: design-pattern demos
 
-That tells you:
-- what the problem is asking
-- what idea solves it
-- what data structure is being used
+## Step 2: Find The Core State
 
-## Step 2
+Look for the variables that drive the algorithm or pattern: pointers, stacks, queues, maps, heaps, recursion state, or DP tables.
 
-Find the main variables.
+## Step 3: Read The Control Flow Slowly
 
-Examples:
-- `left`, `right`: usually pointers or a window
-- `stack`: tracks unfinished work
-- `queue`: BFS traversal order
-- `map`: fast lookup
-- `dp`: cached answers for subproblems
+Ask three questions:
 
-## Step 3
+1. What changes every iteration?
+2. What invariant is being maintained?
+3. What event updates the answer?
 
-Read the loop slowly.
+## Step 4: Run The Matching Entry Point
 
-Ask:
-- what changes each iteration?
-- what condition causes movement?
-- what invariant is always true?
+Prefer running a `Main` class or a focused test instead of reading the file passively.
 
-## Step 4
+## Step 5: Explain It Back
 
-Run the matching `Main` file and debug line by line.
+If you cannot explain the logic in plain English after reading it, revisit the matching basics or pattern layer before moving on.
 
-That is more useful than reading the answer passively.
-
-## Step 5
-
-After understanding the code, try to say the algorithm in plain English without looking.
-
-If you cannot explain it simply, you do not own it yet.

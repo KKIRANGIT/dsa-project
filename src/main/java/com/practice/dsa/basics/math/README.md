@@ -1,24 +1,29 @@
-# Math Basics
+﻿# Math Basics
 
-Study order:
-1. `MathUtilities`
-2. `PrimeSieveBasics`
-3. `FastPowerBasics`
+Package: `com.practice.dsa.basics.math`
 
-Use this folder to learn gcd/lcm-style utilities, prime preprocessing, and exponentiation by squaring.
+This folder currently contains 3 implementation classes and 3 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Implement `gcd` and `lcm`, then use them to simplify fractions.
-- Answer many prime-count queries using one sieve precomputation.
-- Support fast exponentiation for large exponents, negative powers, and modular arithmetic.
-- Build prefix-gcd or suffix-gcd reasoning for "remove one element" style questions.
-- Compare trial division, sieve, and fast power so you know when each tool is appropriate.
+- `FastPowerBasics`
+- `MathUtilities`
+- `PrimeSieveBasics`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Pow(x, n)`
-- `Count Primes`
-- `GCD of Strings`
-- `Happy Number`
-- `Prime Arrangements`
+- `FastPowerBasicsMain`
+- `MathUtilitiesMain`
+- `PrimeSieveBasicsMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/math_geometry`
+- `problems/math_geometry`
+

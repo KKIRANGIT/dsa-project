@@ -1,22 +1,25 @@
-# Hashing Basics
+﻿# Hashing Basics
 
-Study order:
-1. `SimpleHashTable`
+Package: `com.practice.dsa.basics.hashing`
 
-Use this folder to understand what a hash table is doing internally before relying only on `HashMap` and `HashSet`.
+This folder currently contains 1 implementation classes and 1 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Add collision handling by separate chaining or linear probing if you have not implemented it yet.
-- Build frequency-map solutions for character counts and duplicate detection.
-- Solve lookup problems where you need `value -> index` mapping.
-- Group strings by a normalized key such as sorted characters or frequency signature.
-- Track visited numbers or prefixes to solve sequence-detection problems.
+- `SimpleHashTable`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Two Sum`
-- `Valid Anagram`
-- `Group Anagrams`
-- `Longest Consecutive Sequence`
-- `Top K Frequent Elements`
+- `SimpleHashTableMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/arrays_hashing`
+- `problems/arrays_hashing`
+

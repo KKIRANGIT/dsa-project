@@ -1,41 +1,29 @@
-# Linked List Patterns
+﻿# Linked List Patterns
 
-## What This Folder Covers
+Package: `com.practice.dsa.patterns.linked_list`
 
-Use this folder when pointer rewiring is the main difficulty.
+This folder currently contains 3 templates and 3 runnable demos.
 
-## How To Identify This Topic
+## Templates
 
-Pick this topic when you see signals like:
+- `PT1DummyNodeTemplate`
+- `PT2RemoveWithDummyTemplate`
+- `PT3ReverseSublistTemplate`
 
-- deleting or inserting near the head
-- reversing a full list or sublist
-- stable pointer movement without array indexing
-- head edge cases causing bugs
+## Runnable Demos
 
-## Study Order
+- `PT1DummyNodeTemplateMain`
+- `PT2RemoveWithDummyTemplateMain`
+- `PT3ReverseSublistTemplateMain`
 
-1. `PT1DummyNodeTemplate`
-2. `PT2RemoveWithDummyTemplate`
-3. `PT3ReverseSublistTemplate`
+## Study Flow
 
-## PT1 `PT1DummyNodeTemplate`
+1. Start with the lowest-numbered template.
+2. Identify the reusable decision rule or invariant.
+3. Run the `Main` class and map it to a problem family.
 
-- Solves: insertion, merge, and deletion problems with head-edge-case simplification.
-- Identify: special handling for the head node makes the code messy.
-- Typical LeetCode problems: `Merge Two Sorted Lists`, `Partition List`, `Swap Nodes in Pairs`.
-- Reminder: a dummy node gives you a stable node before the head.
+## Related Layers
 
-## PT2 `PT2RemoveWithDummyTemplate`
+- `basics/linkedlist`
+- `problems/linked_list`
 
-- Solves: node deletion where the head may also be removed.
-- Identify: removal logic should work uniformly for head and non-head nodes.
-- Typical LeetCode problems: `Remove Linked List Elements`, `Remove Nth Node From End of List`, `Delete Node in a Linked List` variant reasoning.
-- Reminder: track the node before the current node when unlinking.
-
-## PT3 `PT3ReverseSublistTemplate`
-
-- Solves: reverse all or part of a list while preserving the rest.
-- Identify: the problem asks to reverse nodes between two positions or in groups.
-- Typical LeetCode problems: `Reverse Linked List`, `Reverse Linked List II`, `Reverse Nodes in k-Group`.
-- Reminder: keep references to the node before the reversed part and the tail after it.

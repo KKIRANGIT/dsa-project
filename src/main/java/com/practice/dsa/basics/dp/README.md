@@ -1,31 +1,44 @@
-# Dynamic Programming Basics
+﻿# Dynamic Programming Basics
 
-Study order:
-1. `FibonacciMemoizationBasic`
-2. `FibonacciDp`
-3. `ClimbingStairsDp`
-4. `GridPathsDp`
-5. `HouseRobberBasic`
-6. `CoinChangeBasic`
-7. `KnapsackBasic`
-8. `LongestCommonSubsequenceBasic`
-9. `LongestCommonSubsequenceReconstructionBasic`
-10. `LongestIncreasingSubsequenceBasic`
+Package: `com.practice.dsa.basics.dp`
 
-Use this folder to learn top-down vs bottom-up DP, 1D DP, 2D DP, take-or-skip DP, minimum-cost DP, capacity DP, string-comparison DP, reconstruction, and subsequence DP.
+This folder currently contains 10 implementation classes and 10 runnable demos.
 
-## Practice Exercises
+## Implementations
 
-- Solve one problem in three versions: plain recursion, memoization, and tabulation.
-- Add obstacle and minimum-cost variants to the grid path problems.
-- Extend `HouseRobberBasic` into the circular-house version.
-- Practice `0/1 Knapsack`, subset sum, and partition-equal-subset-sum as the same take-or-skip pattern.
-- Upgrade LIS from `O(n^2)` DP to the `O(n log n)` patience-sorting approach.
+- `ClimbingStairsDp`
+- `CoinChangeBasic`
+- `FibonacciDp`
+- `FibonacciMemoizationBasic`
+- `GridPathsDp`
+- `HouseRobberBasic`
+- `KnapsackBasic`
+- `LongestCommonSubsequenceBasic`
+- `LongestCommonSubsequenceReconstructionBasic`
+- `LongestIncreasingSubsequenceBasic`
 
-## Good Next Problems
+## Runnable Entry Points
 
-- `Min Cost Climbing Stairs`
-- `Unique Paths II`
-- `Coin Change`
-- `Partition Equal Subset Sum`
-- `Edit Distance`
+- `ClimbingStairsDpMain`
+- `CoinChangeBasicMain`
+- `FibonacciDpMain`
+- `FibonacciMemoizationBasicMain`
+- `GridPathsDpMain`
+- `HouseRobberBasicMain`
+- `KnapsackBasicMain`
+- `LongestCommonSubsequenceBasicMain`
+- `LongestCommonSubsequenceReconstructionBasicMain`
+- `LongestIncreasingSubsequenceBasicMain`
+
+## Study Flow
+
+1. Read the implementation class first.
+2. Run the matching `Main` class.
+3. Trace inserts, removals, traversals, or state transitions in the debugger.
+
+## Related Next Topics
+
+- `patterns/dp`
+- `problems/dp1`
+- `problems/dp2`
+

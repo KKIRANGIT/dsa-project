@@ -1,18 +1,25 @@
-# Stack
+﻿# Stack Problems
 
-## What To Learn Here
+Package: `com.practice.dsa.problems.stack`
 
-- last-in-first-out behavior
-- matching and nesting logic
-- monotonic stack usage
+This folder currently contains 3 problem folders, 1 topic runners, and 1 tests.
 
-## Suggested Problem Order
+## Topic Runners
 
-1. `LC20 Valid Parentheses`
-2. `LC155 Min Stack`
-3. `LC739 Daily Temperatures`
+- `StackProblemsMain`
 
-## Common Beginner Mistakes
+## Problem Inventory
 
-- confusing values and indexes in monotonic stack problems
-- forgetting to check empty stack cases
+- `daily_temperatures`: `LC739DailyTemperaturesMain`, `LC739DailyTemperaturesSolver`
+- `min_stack`: `LC155MinStack`, `LC155MinStackMain`
+- `valid_parentheses`: `LC20ValidParenthesesMain`, `LC20ValidParenthesesSolver`
+
+## Tests
+
+- `LC20ValidParenthesesSolverTest`
+
+## Related Layers
+
+- `basics/stack`
+- `patterns/stack`
+
